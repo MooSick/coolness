@@ -1,3 +1,5 @@
+REM Add file to "C:\Users\%UserName%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
 Dim rlTimer, songNum
 rlTimer = 0
 songNum = 0
