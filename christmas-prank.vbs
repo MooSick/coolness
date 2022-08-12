@@ -1,5 +1,10 @@
 REM Add file to "C:\Users\%UserName%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
+REM can be downloaded through powershell using the following commands:
+REM cd C:\Users\%UserName%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+REM Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MooSick/coolness/main/christmas-prank.vbs" -OutFile ".\christmas-prank.vbs"
+
+
 Dim rlTimer, songNum
 rlTimer = 0
 songNum = 0
